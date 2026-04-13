@@ -1,8 +1,8 @@
- ⚡ AI-Powered Energy Consumption Forecasting System
+⚡ AI-Powered Energy Consumption Forecasting System
 
 📌 Overview
 
-This project predicts future energy consumption using Machine Learning and provides an interactive dashboard using Streamlit. It is designed to simulate real-world energy forecasting systems used in industries like smart grids and data centers.
+This project predicts future energy consumption using Machine Learning and provides an interactive dashboard using Streamlit. It simulates real-world energy forecasting systems used in smart grids and industrial applications.
 
 ---
 
@@ -12,9 +12,9 @@ Energy mismanagement can lead to:
 
 - High electricity costs
 - Power outages
-- Inefficient resource utilization
+- Inefficient energy usage
 
-This system forecasts energy demand using historical data to help optimize consumption and planning.
+This system forecasts energy demand using historical time-series data to help optimize energy consumption.
 
 ---
 
@@ -80,18 +80,18 @@ streamlit run app.py
 
 🔹 Streamlit Dashboard UI
 
-![ui] (images/ui_output.png)
+"UI" (images/ui_output.png)
 
 🔹 Energy Forecast Graph
 
-![Graph] (images/actual_vs_predicted.png)
+"Graph" (images/actual_vs_predicted.png)
 
 ---
 
 📁 Outputs
 
-- "predictions.csv" → Model predictions
-- "metrics.txt" → RMSE & R² Score
+- "outputs/predictions.csv" → Model predictions
+- "outputs/metrics.txt" → RMSE & R² Score
 
 ---
 
@@ -110,7 +110,7 @@ streamlit run app.py
 - Add LSTM (Deep Learning model)
 - Deploy application online
 - Integrate real-time data
-- Add multi-region dataset comparison
+- Multi-region dataset comparison
 
 ---
 
