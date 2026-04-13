@@ -1,4 +1,4 @@
-⚡ AI-Powered Energy Consumption Forecasting System
+ ⚡ AI-Powered Energy Consumption Forecasting System
 
 📌 Overview
 
@@ -80,11 +80,11 @@ streamlit run app.py
 
 🔹 Streamlit Dashboard UI
 
-"UI" (images/ui_output.png)
+![ui] (images/ui_output.png)
 
 🔹 Energy Forecast Graph
 
-"Graph" (images/actual_vs_predicted.png)
+![Graph] (images/actual_vs_predicted.png)
 
 ---
 
